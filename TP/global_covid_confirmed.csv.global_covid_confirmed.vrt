@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="global_covid_confirmed">
+        <SrcDataSource relativeToVRT="1">global_covid_confirmed.csv</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>global_covid_confirmed</SrcLayer>
+        <Field name="Province/State" src="Province/State" type="String"/>
+        <Field name="Country/Region" src="Country/Region" type="String"/>
+        <Field name="1/22/20" src="1/22/20" type="Integer"/>
+        <Field name="1/23/20" src="1/23/20" type="Integer"/>
+        <Field name="1/24/20" src="1/24/20" type="Integer"/>
+        <Field name="1/25/20" src="1/25/20" type="Integer"/>
+        <Field name="1/26/20" src="1/26/20" type="Integer"/>
+        <Field name="1/27/20" src="1/27/20" type="Integer"/>
+        <Field name="1/28/20" src="1/28/20" type="Integer"/>
+        <Field name="1/29/20" src="1/29/20" type="Integer"/>
+        <Field name="1/30/20" src="1/30/20" type="Integer"/>
+        <Field name="1/31/20" src="1/31/20" type="Integer"/>
+        <Field name="2/1/20" src="2/1/20" type="Integer"/>
+        <Field name="2/2/20" src="2/2/20" type="Integer"/>
+        <Field name="2/3/20" src="2/3/20" type="Integer"/>
+        <Field name="2/4/20" src="2/4/20" type="Integer"/>
+        <Field name="2/5/20" src="2/5/20" type="Integer"/>
+        <Field name="2/6/20" src="2/6/20" type="Integer"/>
+        <Field name="2/7/20" src="2/7/20" type="Integer"/>
+        <Field name="2/8/20" src="2/8/20" type="Integer"/>
+        <Field name="2/9/20" src="2/9/20" type="Integer"/>
+        <Field name="2/10/20" src="2/10/20" type="Integer"/>
+        <Field name="2/11/20" src="2/11/20" type="Integer"/>
+        <Field name="2/12/20" src="2/12/20" type="Integer"/>
+        <Field name="2/13/20" src="2/13/20" type="Integer"/>
+        <Field name="2/14/20" src="2/14/20" type="Integer"/>
+        <Field name="2/15/20" src="2/15/20" type="Integer"/>
+        <Field name="2/16/20" src="2/16/20" type="Integer"/>
+        <Field name="2/17/20" src="2/17/20" type="Integer"/>
+        <Field name="2/18/20" src="2/18/20" type="Integer"/>
+        <Field name="2/19/20" src="2/19/20" type="Integer"/>
+        <Field name="2/20/20" src="2/20/20" type="Integer"/>
+        <Field name="2/21/20" src="2/21/20" type="Integer"/>
+        <Field name="2/22/20" src="2/22/20" type="Integer"/>
+        <Field name="2/23/20" src="2/23/20" type="Integer"/>
+        <Field name="2/24/20" src="2/24/20" type="Integer"/>
+        <Field name="2/25/20" src="2/25/20" type="Integer"/>
+        <Field name="2/26/20" src="2/26/20" type="Integer"/>
+        <Field name="2/27/20" src="2/27/20" type="Integer"/>
+        <Field name="2/28/20" src="2/28/20" type="Integer"/>
+        <Field name="2/29/20" src="2/29/20" type="Integer"/>
+        <Field name="3/1/20" src="3/1/20" type="Integer"/>
+        <Field name="3/2/20" src="3/2/20" type="Integer"/>
+        <Field name="3/3/20" src="3/3/20" type="Integer"/>
+        <Field name="3/4/20" src="3/4/20" type="Integer"/>
+        <Field name="3/5/20" src="3/5/20" type="Integer"/>
+        <Field name="3/6/20" src="3/6/20" type="Integer"/>
+        <Field name="3/7/20" src="3/7/20" type="Integer"/>
+        <Field name="3/8/20" src="3/8/20" type="Integer"/>
+        <Field name="3/9/20" src="3/9/20" type="Integer"/>
+        <Field name="3/10/20" src="3/10/20" type="Integer"/>
+        <Field name="3/11/20" src="3/11/20" type="Integer"/>
+        <Field name="3/12/20" src="3/12/20" type="Integer"/>
+        <Field name="3/13/20" src="3/13/20" type="Integer"/>
+        <Field name="3/14/20" src="3/14/20" type="Integer"/>
+        <Field name="3/15/20" src="3/15/20" type="Integer"/>
+        <Field name="3/16/20" src="3/16/20" type="Integer"/>
+        <Field name="3/17/20" src="3/17/20" type="Integer"/>
+        <Field name="3/18/20" src="3/18/20" type="Integer"/>
+        <Field name="3/19/20" src="3/19/20" type="Integer"/>
+        <Field name="3/20/20" src="3/20/20" type="Integer"/>
+        <Field name="3/21/20" src="3/21/20" type="Integer"/>
+        <Field name="3/22/20" src="3/22/20" type="Integer"/>
+        <Field name="3/23/20" src="3/23/20" type="Integer"/>
+        <Field name="3/24/20" src="3/24/20" type="Integer"/>
+        <Field name="3/25/20" src="3/25/20" type="Integer"/>
+        <Field name="3/26/20" src="3/26/20" type="Integer"/>
+        <Field name="3/27/20" src="3/27/20" type="Integer"/>
+        <Field name="3/28/20" src="3/28/20" type="Integer"/>
+        <Field name="3/29/20" src="3/29/20" type="Integer"/>
+        <Field name="3/30/20" src="3/30/20" type="Integer"/>
+        <Field name="3/31/20" src="3/31/20" type="Integer"/>
+        <Field name="4/1/20" src="4/1/20" type="Integer"/>
+        <Field name="4/2/20" src="4/2/20" type="Integer"/>
+        <Field name="4/3/20" src="4/3/20" type="Integer"/>
+        <Field name="4/4/20" src="4/4/20" type="Integer"/>
+        <Field name="4/5/20" src="4/5/20" type="Integer"/>
+        <Field name="4/6/20" src="4/6/20" type="Integer"/>
+        <Field name="4/7/20" src="4/7/20" type="Integer"/>
+        <Field name="4/8/20" src="4/8/20" type="Integer"/>
+        <Field name="4/9/20" src="4/9/20" type="Integer"/>
+        <Field name="4/10/20" src="4/10/20" type="Integer"/>
+        <Field name="4/11/20" src="4/11/20" type="Integer"/>
+        <Field name="4/12/20" src="4/12/20" type="Integer"/>
+        <Field name="4/13/20" src="4/13/20" type="Integer"/>
+        <Field name="4/14/20" src="4/14/20" type="Integer"/>
+        <Field name="4/15/20" src="4/15/20" type="Integer"/>
+        <Field name="4/16/20" src="4/16/20" type="Integer"/>
+        <Field name="4/17/20" src="4/17/20" type="Integer"/>
+        <Field name="4/18/20" src="4/18/20" type="Integer"/>
+        <Field name="4/19/20" src="4/19/20" type="Integer"/>
+        <Field name="4/20/20" src="4/20/20" type="Integer"/>
+        <Field name="4/21/20" src="4/21/20" type="Integer"/>
+        <Field name="4/22/20" src="4/22/20" type="Integer"/>
+        <Field name="4/23/20" src="4/23/20" type="Integer"/>
+        <Field name="4/24/20" src="4/24/20" type="Integer"/>
+        <Field name="4/25/20" src="4/25/20" type="Integer"/>
+        <Field name="4/26/20" src="4/26/20" type="Integer"/>
+        <Field name="4/27/20" src="4/27/20" type="Integer"/>
+        <Field name="4/28/20" src="4/28/20" type="Integer"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Long" y="Lat"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
